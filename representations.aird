@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IoTFramework="http://IoTFramework" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_CyRNoNpmEeuhJ9oKIQL9jA" selectedViews="_nt1FANpnEeuhJ9oKIQL9jA" version="14.3.1.202003261200">
+    <semanticResources>test.iotframework</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_nt1FANpnEeuhJ9oKIQL9jA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_BZnGsdpoEeuhJ9oKIQL9jA" name="new IoTFrameworkDiagram" repPath="#_BZfx8NpoEeuhJ9oKIQL9jA" changeId="c0face16-9405-4fda-8058-efb77fcb4493">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']"/>
+        <target xmi:type="IoTFramework:IoTFramework" href="test.iotframework#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_BZfx8NpoEeuhJ9oKIQL9jA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BaR1ENpoEeuhJ9oKIQL9jA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_BaR1EdpoEeuhJ9oKIQL9jA" type="Sirius" element="_BZfx8NpoEeuhJ9oKIQL9jA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HngCINqxEeuFZLhfO6qLPQ" type="2001" element="_Hm92otqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_HngCI9qxEeuFZLhfO6qLPQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HngCJNqxEeuFZLhfO6qLPQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HnolANqxEeuFZLhfO6qLPQ" type="3016" element="_Hm-dsNqxEeuFZLhfO6qLPQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HnolAdqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnolAtqxEeuFZLhfO6qLPQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HngCIdqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HngCItqxEeuFZLhfO6qLPQ" x="448" y="137" width="137" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HnieYtqxEeuFZLhfO6qLPQ" type="2001" element="_HnA58NqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_HnjFcNqxEeuFZLhfO6qLPQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HnjFcdqxEeuFZLhfO6qLPQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HnrBQNqxEeuFZLhfO6qLPQ" type="3003" element="_HnA58dqxEeuFZLhfO6qLPQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HnrBQdqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnrBQtqxEeuFZLhfO6qLPQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HnieY9qxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnieZNqxEeuFZLhfO6qLPQ" x="272" y="116" width="121" height="62"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HnjsgtqxEeuFZLhfO6qLPQ" type="2001" element="_HnBhAtqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_HnkTkNqxEeuFZLhfO6qLPQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_HnkTkdqxEeuFZLhfO6qLPQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HnroUNqxEeuFZLhfO6qLPQ" type="3003" element="_HnCIENqxEeuFZLhfO6qLPQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HnroUdqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnroUtqxEeuFZLhfO6qLPQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hnjsg9qxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnjshNqxEeuFZLhfO6qLPQ" x="136" y="87" width="94" height="34"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HnkTktqxEeuFZLhfO6qLPQ" type="2001" element="_HnCIEtqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_Hnk6oNqxEeuFZLhfO6qLPQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Hnk6odqxEeuFZLhfO6qLPQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HnsPYNqxEeuFZLhfO6qLPQ" type="3003" element="_HnCvINqxEeuFZLhfO6qLPQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HnsPYdqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnsPYtqxEeuFZLhfO6qLPQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HnkTk9qxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnkTlNqxEeuFZLhfO6qLPQ" x="137" y="140" width="91" height="38"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znxAcNq0Eeu6je7QbmkqoA" type="2001" element="_znmoY9q0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_znxAc9q0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_znxAdNq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn0q0tq0Eeu6je7QbmkqoA" type="3016" element="_znmoZNq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn0q09q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn0q1Nq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znxAcdq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znxActq0Eeu6je7QbmkqoA" x="450" y="299" width="143" height="74"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znxAddq0Eeu6je7QbmkqoA" type="2001" element="_znn2gtq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_znxngNq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_znxngdq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn1R4Nq0Eeu6je7QbmkqoA" type="3003" element="_znn2g9q0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn1R4dq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn1R4tq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znxAdtq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znxAd9q0Eeu6je7QbmkqoA" x="276" y="299" width="125" height="57"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znxngtq0Eeu6je7QbmkqoA" type="2001" element="_znodlNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_znxnhdq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_znxnhtq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn148Nq0Eeu6je7QbmkqoA" type="3003" element="_znodldq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn148dq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn148tq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znxng9q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znxnhNq0Eeu6je7QbmkqoA" x="148" y="288" width="79" height="33"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znyOkNq0Eeu6je7QbmkqoA" type="2001" element="_znodl9q0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_znyOk9q0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_znyOlNq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn1489q0Eeu6je7QbmkqoA" type="3003" element="_znodmNq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn149Nq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn149dq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znyOkdq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znyOktq0Eeu6je7QbmkqoA" x="148" y="348" width="79" height="31"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zny1otq0Eeu6je7QbmkqoA" type="2001" element="_znlaQNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zny1pdq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zny1ptq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn2gA9q0Eeu6je7QbmkqoA" type="3016" element="_znlaQdq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn2gBNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn2gBdq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zny1o9q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zny1pNq0Eeu6je7QbmkqoA" x="796" y="333" width="117" height="52"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znzcsNq0Eeu6je7QbmkqoA" type="2001" element="_znmBUNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_znzcs9q0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_znzctNq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn2gBtq0Eeu6je7QbmkqoA" type="3016" element="_znmBUdq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn2gB9q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn2gCNq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znzcsdq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znzcstq0Eeu6je7QbmkqoA" x="788" y="128" width="125" height="53"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_znzctdq0Eeu6je7QbmkqoA" type="2001" element="_znmBU9q0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn0DwNq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zn0Dwdq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn3HENq0Eeu6je7QbmkqoA" type="3016" element="_znmBVNq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn3HEdq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn3HEtq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_znzcttq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_znzct9q0Eeu6je7QbmkqoA" x="632" y="204" width="165" height="96"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zn0Dwtq0Eeu6je7QbmkqoA" type="2001" element="_znnPcNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn0Dxdq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zn0Dxtq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn3HE9q0Eeu6je7QbmkqoA" type="3003" element="_znnPcdq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn3HFNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn3HFdq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zn0Dw9q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn0DxNq0Eeu6je7QbmkqoA" x="316" y="214" width="77" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zn0Dx9q0Eeu6je7QbmkqoA" type="2001" element="_znnPc9q0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn0q0Nq0Eeu6je7QbmkqoA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_zn0q0dq0Eeu6je7QbmkqoA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn3HFtq0Eeu6je7QbmkqoA" type="3003" element="_znnPdNq0Eeu6je7QbmkqoA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zn3HF9q0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn3HGNq0Eeu6je7QbmkqoA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zn0DyNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn0Dydq0Eeu6je7QbmkqoA" x="310" y="388" width="90" height="38"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcKuwN8vEeuKU6jkkoVHMw" type="2001" element="_Wb4a5t8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcQ1YN8vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcQ1Yd8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcVG0N8vEeuKU6jkkoVHMw" type="3003" element="_Wb6QEN8vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcVG0d8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcVG0t8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcKuwd8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcKuwt8vEeuKU6jkkoVHMw" x="137" y="204" width="90" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcSDgN8vEeuKU6jkkoVHMw" type="2001" element="_Wb8FQt8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcSDg98vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcSDhN8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcVG098vEeuKU6jkkoVHMw" type="3003" element="_Wb8FQ98vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcVG1N8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcVG1d8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcSDgd8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcSDgt8vEeuKU6jkkoVHMw" x="148" y="408" width="76" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcSqkN8vEeuKU6jkkoVHMw" type="2001" element="_Wb9TZN8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcSqk98vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcSqlN8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcVt4N8vEeuKU6jkkoVHMw" type="3003" element="_Wb96cN8vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcVt4d8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcVt4t8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcSqkd8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcSqkt8vEeuKU6jkkoVHMw" x="28" y="160" width="85" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcSqld8vEeuKU6jkkoVHMw" type="2001" element="_Wb96ct8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcTRoN8vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcTRod8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcVt498vEeuKU6jkkoVHMw" type="3003" element="_Wb96c98vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcVt5N8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcVt5d8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcSqlt8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcSql98vEeuKU6jkkoVHMw" x="28" y="216" width="77" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcTRot8vEeuKU6jkkoVHMw" type="2001" element="_Wb-hgt8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcTRpd8vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcTRpt8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcVt5t8vEeuKU6jkkoVHMw" type="3003" element="_Wb-hg98vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcVt598vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcVt6N8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcTRo98vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcTRpN8vEeuKU6jkkoVHMw" x="28" y="384" width="93" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WcT4sN8vEeuKU6jkkoVHMw" type="2001" element="_Wb-hhd8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcT4s98vEeuKU6jkkoVHMw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WcT4tN8vEeuKU6jkkoVHMw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcWU8N8vEeuKU6jkkoVHMw" type="3003" element="_Wb-hht8vEeuKU6jkkoVHMw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcWU8d8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcWU8t8vEeuKU6jkkoVHMw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WcT4sd8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcT4st8vEeuKU6jkkoVHMw" x="31" y="437" width="87" height="24"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_BaR1EtpoEeuhJ9oKIQL9jA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Hn644NqxEeuFZLhfO6qLPQ" type="4001" element="_HnIOsNqxEeuFZLhfO6qLPQ" source="_HngCINqxEeuFZLhfO6qLPQ" target="_HnieYtqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_Hn645NqxEeuFZLhfO6qLPQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn645dqxEeuFZLhfO6qLPQ" x="25" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn645tqxEeuFZLhfO6qLPQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn6459qxEeuFZLhfO6qLPQ" x="1" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn646NqxEeuFZLhfO6qLPQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn646dqxEeuFZLhfO6qLPQ" x="5" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Hn644dqxEeuFZLhfO6qLPQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Hn644tqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hn6449qxEeuFZLhfO6qLPQ" points="[-6, -2, 56, 11]$[-61, -13, 1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn646tqxEeuFZLhfO6qLPQ" id="(0.043795620437956206,0.45)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn6469qxEeuFZLhfO6qLPQ" id="(0.9917355371900827,0.7096774193548387)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Hn8HAdqxEeuFZLhfO6qLPQ" type="4001" element="_HnJc0NqxEeuFZLhfO6qLPQ" source="_HnieYtqxEeuFZLhfO6qLPQ" target="_HnjsgtqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_Hn8HBdqxEeuFZLhfO6qLPQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8HBtqxEeuFZLhfO6qLPQ" x="7" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn8HB9qxEeuFZLhfO6qLPQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8HCNqxEeuFZLhfO6qLPQ" x="4" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn8HCdqxEeuFZLhfO6qLPQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8HCtqxEeuFZLhfO6qLPQ" x="4" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Hn8HAtqxEeuFZLhfO6qLPQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Hn8HA9qxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hn8HBNqxEeuFZLhfO6qLPQ" points="[-15, -13, 57, 48]$[-57, -49, 15, 12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn8uENqxEeuFZLhfO6qLPQ" id="(0.12396694214876033,0.7580645161290323)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn8uEdqxEeuFZLhfO6qLPQ" id="(0.8404255319148937,0.4411764705882353)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Hn8uEtqxEeuFZLhfO6qLPQ" type="4001" element="_HnJc1dqxEeuFZLhfO6qLPQ" source="_HnieYtqxEeuFZLhfO6qLPQ" target="_HnkTktqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_Hn8uFtqxEeuFZLhfO6qLPQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8uF9qxEeuFZLhfO6qLPQ" x="17" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn8uGNqxEeuFZLhfO6qLPQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8uGdqxEeuFZLhfO6qLPQ" x="8" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Hn8uGtqxEeuFZLhfO6qLPQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hn8uG9qxEeuFZLhfO6qLPQ" x="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Hn8uE9qxEeuFZLhfO6qLPQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Hn8uFNqxEeuFZLhfO6qLPQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hn8uFdqxEeuFZLhfO6qLPQ" points="[-15, -2, 59, 6]$[-59, -7, 15, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn9VINqxEeuFZLhfO6qLPQ" id="(0.12396694214876033,0.7580645161290323)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hn9VIdqxEeuFZLhfO6qLPQ" id="(0.8351648351648352,0.39473684210526316)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn3uINq0Eeu6je7QbmkqoA" type="4001" element="_znpEpNq0Eeu6je7QbmkqoA" source="_znzctdq0Eeu6je7QbmkqoA" target="_zny1otq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn3uJNq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn3uJdq0Eeu6je7QbmkqoA" x="-9" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn3uJtq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn3uJ9q0Eeu6je7QbmkqoA" x="-2" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn4VMNq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn4VMdq0Eeu6je7QbmkqoA" x="4" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn3uIdq0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn3uItq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn3uI9q0Eeu6je7QbmkqoA" points="[17, 13, -59, -45]$[60, 46, -16, -12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn4VMtq0Eeu6je7QbmkqoA" id="(0.6484848484848484,0.8645833333333334)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn4VM9q0Eeu6je7QbmkqoA" id="(0.1623931623931624,0.23076923076923078)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn4VNNq0Eeu6je7QbmkqoA" type="4001" element="_znprstq0Eeu6je7QbmkqoA" source="_znzctdq0Eeu6je7QbmkqoA" target="_znzcsNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn4VONq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn4VOdq0Eeu6je7QbmkqoA" x="5" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn4VOtq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn4VO9q0Eeu6je7QbmkqoA" x="-6" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn4VPNq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn4VPdq0Eeu6je7QbmkqoA" x="-25" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn4VNdq0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn4VNtq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn4VN9q0Eeu6je7QbmkqoA" points="[72, -51, -84, 58]$[141, -99, -15, 10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn48QNq0Eeu6je7QbmkqoA" id="(0.09090909090909093,0.7395833333333334)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn48Qdq0Eeu6je7QbmkqoA" id="(0.12,0.7169811320754716)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn48Qtq0Eeu6je7QbmkqoA" type="4001" element="_znprt9q0Eeu6je7QbmkqoA" source="_znzctdq0Eeu6je7QbmkqoA" target="_HngCINqxEeuFZLhfO6qLPQ">
+          <children xmi:type="notation:Node" xmi:id="_zn48Rtq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn48R9q0Eeu6je7QbmkqoA" x="17" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn48SNq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn48Sdq0Eeu6je7QbmkqoA" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn48Stq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn48S9q0Eeu6je7QbmkqoA" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn48Q9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn48RNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn48Rdq0Eeu6je7QbmkqoA" points="[-7, -4, 70, 32]$[-62, -29, 15, 7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn48TNq0Eeu6je7QbmkqoA" id="(0.04242424242424243,0.3020833333333333)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn48Tdq0Eeu6je7QbmkqoA" id="(0.8321167883211679,0.75)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn48Ttq0Eeu6je7QbmkqoA" type="4001" element="_znqSwtq0Eeu6je7QbmkqoA" source="_znzctdq0Eeu6je7QbmkqoA" target="_znxAcNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn5jUNq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jUdq0Eeu6je7QbmkqoA" x="-21" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn5jUtq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jU9q0Eeu6je7QbmkqoA" x="10" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn5jVNq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jVdq0Eeu6je7QbmkqoA" x="-8" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn48T9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn48UNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn48Udq0Eeu6je7QbmkqoA" points="[-5, 3, 49, -35]$[-44, 31, 10, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn5jVtq0Eeu6je7QbmkqoA" id="(0.030303030303030304,0.8020833333333334)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn5jV9q0Eeu6je7QbmkqoA" id="(0.9300699300699301,0.2702702702702703)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn5jWNq0Eeu6je7QbmkqoA" type="4001" element="_znqSx9q0Eeu6je7QbmkqoA" source="_znxAcNq0Eeu6je7QbmkqoA" target="_zn0Dx9q0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn5jXNq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jXdq0Eeu6je7QbmkqoA" x="-6" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn5jXtq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jX9q0Eeu6je7QbmkqoA" x="12" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn5jYNq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn5jYdq0Eeu6je7QbmkqoA" x="8" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn5jWdq0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn5jWtq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn5jW9q0Eeu6je7QbmkqoA" points="[-3, 1, 78, -45]$[-80, 45, 1, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6KYNq0Eeu6je7QbmkqoA" id="(0.02097902097902098,0.5945945945945946)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6KYdq0Eeu6je7QbmkqoA" id="(0.6888888888888889,0.02631578947368421)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn6KYtq0Eeu6je7QbmkqoA" type="4001" element="_znq51Nq0Eeu6je7QbmkqoA" source="_HngCINqxEeuFZLhfO6qLPQ" target="_zn0Dwtq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn6KZtq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6KZ9q0Eeu6je7QbmkqoA" x="7" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn6KaNq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6Kadq0Eeu6je7QbmkqoA" x="17" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn6Katq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6Ka9q0Eeu6je7QbmkqoA" x="6" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn6KY9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn6KZNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn6KZdq0Eeu6je7QbmkqoA" points="[-5, 1, 117, -54]$[-89, 40, 33, -15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6xcNq0Eeu6je7QbmkqoA" id="(0.0364963503649635,0.4625)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6xcdq0Eeu6je7QbmkqoA" id="(0.19480519480519481,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn6xctq0Eeu6je7QbmkqoA" type="4001" element="_znrg4Nq0Eeu6je7QbmkqoA" source="_znxAcNq0Eeu6je7QbmkqoA" target="_znxAddq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn6xdtq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6xd9q0Eeu6je7QbmkqoA" x="5" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn6xeNq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6xedq0Eeu6je7QbmkqoA" x="7" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn6xetq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6xe9q0Eeu6je7QbmkqoA" x="7" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn6xc9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn6xdNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn6xddq0Eeu6je7QbmkqoA" points="[-22, -2, 90, 8]$[-71, -2, 41, 8]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6xfNq0Eeu6je7QbmkqoA" id="(0.15384615384615385,0.5540540540540541)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn6xfdq0Eeu6je7QbmkqoA" id="(0.672,0.543859649122807)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn6xftq0Eeu6je7QbmkqoA" type="4001" element="_znsH-Nq0Eeu6je7QbmkqoA" source="_znxAddq0Eeu6je7QbmkqoA" target="_znxngtq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn6xgtq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn6xg9q0Eeu6je7QbmkqoA" x="9" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn7YgNq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn7Ygdq0Eeu6je7QbmkqoA" x="4" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn7Ygtq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn7Yg9q0Eeu6je7QbmkqoA" x="4" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn6xf9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn6xgNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn6xgdq0Eeu6je7QbmkqoA" points="[-15, -8, 52, 25]$[-64, -32, 3, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn7YhNq0Eeu6je7QbmkqoA" id="(0.11999999999999998,0.7368421052631579)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn7Yhdq0Eeu6je7QbmkqoA" id="(0.9620253164556962,0.6060606060606061)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zn7Yhtq0Eeu6je7QbmkqoA" type="4001" element="_znsH_dq0Eeu6je7QbmkqoA" source="_znxAddq0Eeu6je7QbmkqoA" target="_znyOkNq0Eeu6je7QbmkqoA">
+          <children xmi:type="notation:Node" xmi:id="_zn7Yitq0Eeu6je7QbmkqoA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn7Yi9q0Eeu6je7QbmkqoA" x="-22" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn7YjNq0Eeu6je7QbmkqoA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn7Yjdq0Eeu6je7QbmkqoA" x="25" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zn7Yjtq0Eeu6je7QbmkqoA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zn7Yj9q0Eeu6je7QbmkqoA" x="-2" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zn7Yh9q0Eeu6je7QbmkqoA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zn7YiNq0Eeu6je7QbmkqoA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zn7Yidq0Eeu6je7QbmkqoA" points="[-15, 3, 113, -26]$[-64, 14, 64, -15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn7YkNq0Eeu6je7QbmkqoA" id="(0.11999999999999998,0.7368421052631579)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zn7Ykdq0Eeu6je7QbmkqoA" id="(0.189873417721519,0.7096774193548387)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WcXjEN8vEeuKU6jkkoVHMw" type="4001" element="_WcA9zN8vEeuKU6jkkoVHMw" source="_WcKuwN8vEeuKU6jkkoVHMw" target="_WcSqkN8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcYxMN8vEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcYxMd8vEeuKU6jkkoVHMw" x="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcZ_UN8vEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcZ_Ud8vEeuKU6jkkoVHMw" x="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcamYN8vEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcamYd8vEeuKU6jkkoVHMw" x="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WcXjEd8vEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WcXjEt8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WcXjE98vEeuKU6jkkoVHMw" points="[-15, -15, 29, 29]$[-29, -29, 15, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WcgF8N8vEeuKU6jkkoVHMw" id="(0.05555555555555555,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WcgF8d8vEeuKU6jkkoVHMw" id="(0.8235294117647058,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WcgF8t8vEeuKU6jkkoVHMw" type="4001" element="_WcBk0t8vEeuKU6jkkoVHMw" source="_WcKuwN8vEeuKU6jkkoVHMw" target="_WcSqld8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcgtAN8vEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtAd8vEeuKU6jkkoVHMw" x="-7" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcgtAt8vEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtA98vEeuKU6jkkoVHMw" x="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcgtBN8vEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtBd8vEeuKU6jkkoVHMw" x="3" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WcgF898vEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WcgF9N8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WcgF9d8vEeuKU6jkkoVHMw" points="[-15, 1, 84, -11]$[-37, 4, 62, -8]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WcgtBt8vEeuKU6jkkoVHMw" id="(0.05555555555555555,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WcgtB98vEeuKU6jkkoVHMw" id="(0.19480519480519481,0.6)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WcgtCN8vEeuKU6jkkoVHMw" type="4001" element="_WcBk198vEeuKU6jkkoVHMw" source="_WcSDgN8vEeuKU6jkkoVHMw" target="_WcTRot8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WcgtDN8vEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtDd8vEeuKU6jkkoVHMw" x="1" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcgtDt8vEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtD98vEeuKU6jkkoVHMw" x="2" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WcgtEN8vEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcgtEd8vEeuKU6jkkoVHMw" x="2" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WcgtCd8vEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WcgtCt8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WcgtC98vEeuKU6jkkoVHMw" points="[-15, -5, 71, 19]$[-36, -11, 50, 13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WchUEN8vEeuKU6jkkoVHMw" id="(0.11842105263157894,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WchUEd8vEeuKU6jkkoVHMw" id="(0.46236559139784944,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_WchUEt8vEeuKU6jkkoVHMw" type="4001" element="_WcCL4t8vEeuKU6jkkoVHMw" source="_WcSDgN8vEeuKU6jkkoVHMw" target="_WcT4sN8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_WchUFt8vEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WchUF98vEeuKU6jkkoVHMw" x="11" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WchUGN8vEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WchUGd8vEeuKU6jkkoVHMw" x="-10" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WchUGt8vEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WchUG98vEeuKU6jkkoVHMw" x="-13" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WchUE98vEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WchUFN8vEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WchUFd8vEeuKU6jkkoVHMw" points="[-15, 3, 122, -26]$[-126, 26, 11, -3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WchUHN8vEeuKU6jkkoVHMw" id="(0.11842105263157894,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WchUHd8vEeuKU6jkkoVHMw" id="(-0.1264367816091954,0.625)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s4nbwN8xEeuKU6jkkoVHMw" type="4001" element="_s3gojN8xEeuKU6jkkoVHMw" source="_HnieYtqxEeuFZLhfO6qLPQ" target="_WcKuwN8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_s4pQ8N8xEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4pQ8d8xEeuKU6jkkoVHMw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4pQ8t8xEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4pQ898xEeuKU6jkkoVHMw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4pQ9N8xEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4pQ9d8xEeuKU6jkkoVHMw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s4nbwd8xEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s4nbwt8xEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s4nbw98xEeuKU6jkkoVHMw" points="[0, 0, 90, -72]$[-72, 57, 18, -15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4p4AN8xEeuKU6jkkoVHMw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4p4Ad8xEeuKU6jkkoVHMw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_s4p4At8xEeuKU6jkkoVHMw" type="4001" element="_s3hPlN8xEeuKU6jkkoVHMw" source="_znxAddq0Eeu6je7QbmkqoA" target="_WcSDgN8vEeuKU6jkkoVHMw">
+          <children xmi:type="notation:Node" xmi:id="_s4p4Bt8xEeuKU6jkkoVHMw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4p4B98xEeuKU6jkkoVHMw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4p4CN8xEeuKU6jkkoVHMw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4p4Cd8xEeuKU6jkkoVHMw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4qfEN8xEeuKU6jkkoVHMw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4qfEd8xEeuKU6jkkoVHMw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_s4p4A98xEeuKU6jkkoVHMw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_s4p4BN8xEeuKU6jkkoVHMw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s4p4Bd8xEeuKU6jkkoVHMw" points="[0, 0, 124, -124]$[-109, 109, 15, -15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4qfEt8xEeuKU6jkkoVHMw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4qfE98xEeuKU6jkkoVHMw" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BaTDMNpoEeuhJ9oKIQL9jA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_BaTDMdpoEeuhJ9oKIQL9jA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Hm92otqxEeuFZLhfO6qLPQ" name="ECGdevice" outgoingEdges="_HnIOsNqxEeuFZLhfO6qLPQ _znq51Nq0Eeu6je7QbmkqoA" incomingEdges="_znprt9q0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.0"/>
+      <semanticElements xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_Hm-dsNqxEeuFZLhfO6qLPQ" labelSize="12" labelPosition="node" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProviderNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProviderNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znmoY9q0Eeu6je7QbmkqoA" name="EEGdevice" outgoingEdges="_znqSx9q0Eeu6je7QbmkqoA _znrg4Nq0Eeu6je7QbmkqoA" incomingEdges="_znqSwtq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.1"/>
+      <semanticElements xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_znmoZNq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="204,242,166">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProviderNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProviderNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_HnA58NqxEeuFZLhfO6qLPQ" name="ecgSignalWindow" outgoingEdges="_HnJc0NqxEeuFZLhfO6qLPQ _HnJc1dqxEeuFZLhfO6qLPQ _s3gojN8xEeuKU6jkkoVHMw" incomingEdges="_HnIOsNqxEeuFZLhfO6qLPQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0"/>
+      <semanticElements xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_HnA58dqxEeuFZLhfO6qLPQ" labelSize="12" labelPosition="node" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb4a5t8vEeuKU6jkkoVHMw" name="ecgSignal" outgoingEdges="_WcA9zN8vEeuKU6jkkoVHMw _WcBk0t8vEeuKU6jkkoVHMw" incomingEdges="_s3gojN8xEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0/@data.0"/>
+      <semanticElements xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0/@data.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb6QEN8vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znn2gtq0Eeu6je7QbmkqoA" name="eegSignalWindow" outgoingEdges="_znsH-Nq0Eeu6je7QbmkqoA _znsH_dq0Eeu6je7QbmkqoA _s3hPlN8xEeuKU6jkkoVHMw" incomingEdges="_znrg4Nq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0"/>
+      <semanticElements xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_znn2g9q0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb8FQt8vEeuKU6jkkoVHMw" name="eegSignal" outgoingEdges="_WcBk198vEeuKU6jkkoVHMw _WcCL4t8vEeuKU6jkkoVHMw" incomingEdges="_s3hPlN8xEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0/@data.0"/>
+      <semanticElements xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0/@data.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb8FQ98vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_HnBhAtqxEeuFZLhfO6qLPQ" name="period" incomingEdges="_HnJc0NqxEeuFZLhfO6qLPQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@dataTypes.0"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@dataTypes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_HnCIENqxEeuFZLhfO6qLPQ" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_HnCIEtqxEeuFZLhfO6qLPQ" name="duration" incomingEdges="_HnJc1dqxEeuFZLhfO6qLPQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@dataTypes.1"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@dataTypes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_HnCvINqxEeuFZLhfO6qLPQ" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb9TZN8vEeuKU6jkkoVHMw" name="timestamp" incomingEdges="_WcA9zN8vEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@data.0/@dataTypes.0"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@data.0/@dataTypes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb96cN8vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb96ct8vEeuKU6jkkoVHMw" name="value" incomingEdges="_WcBk0t8vEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@data.0/@dataTypes.1"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.0/@data.0/@data.0/@dataTypes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb96c98vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znodlNq0Eeu6je7QbmkqoA" name="period" incomingEdges="_znsH-Nq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@dataTypes.0"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@dataTypes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_znodldq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znodl9q0Eeu6je7QbmkqoA" name="duration" incomingEdges="_znsH_dq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@dataTypes.1"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@dataTypes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_znodmNq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb-hgt8vEeuKU6jkkoVHMw" name="timestamp" incomingEdges="_WcBk198vEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@data.0/@dataTypes.0"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@data.0/@dataTypes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb-hg98vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Wb-hhd8vEeuKU6jkkoVHMw" name="value" incomingEdges="_WcCL4t8vEeuKU6jkkoVHMw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@data.0/@dataTypes.1"/>
+      <semanticElements xmi:type="IoTFramework:DataType" href="test.iotframework#//@components.1/@data.0/@data.0/@dataTypes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_Wb-hht8vEeuKU6jkkoVHMw" labelSize="12" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataTypeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HnIOsNqxEeuFZLhfO6qLPQ" sourceNode="_Hm92otqxEeuFZLhfO6qLPQ" targetNode="_HnA58NqxEeuFZLhfO6qLPQ">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HnIOsdqxEeuFZLhfO6qLPQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Component2DataEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HnIOstqxEeuFZLhfO6qLPQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Component2DataEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HnJc0NqxEeuFZLhfO6qLPQ" sourceNode="_HnA58NqxEeuFZLhfO6qLPQ" targetNode="_HnBhAtqxEeuFZLhfO6qLPQ">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HnJc0dqxEeuFZLhfO6qLPQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HnJc0tqxEeuFZLhfO6qLPQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_HnJc1dqxEeuFZLhfO6qLPQ" sourceNode="_HnA58NqxEeuFZLhfO6qLPQ" targetNode="_HnCIEtqxEeuFZLhfO6qLPQ">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HnKD4NqxEeuFZLhfO6qLPQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HnKD4dqxEeuFZLhfO6qLPQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znlaQNq0Eeu6je7QbmkqoA" name="monitor" incomingEdges="_znpEpNq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Console" href="test.iotframework#//@outputs.0"/>
+      <semanticElements xmi:type="IoTFramework:Console" href="test.iotframework#//@outputs.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_znlaQdq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znmBUNq0Eeu6je7QbmkqoA" name="db" incomingEdges="_znprstq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Database" href="test.iotframework#//@outputs.1"/>
+      <semanticElements xmi:type="IoTFramework:Database" href="test.iotframework#//@outputs.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_znmBUdq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='OutputNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znmBU9q0Eeu6je7QbmkqoA" name="Synchroniser" outgoingEdges="_znpEpNq0Eeu6je7QbmkqoA _znprstq0Eeu6je7QbmkqoA _znprt9q0Eeu6je7QbmkqoA _znqSwtq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <semanticElements xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_znmBVNq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProcessorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='DataProcessorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znnPcNq0Eeu6je7QbmkqoA" name="BT" incomingEdges="_znq51Nq0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Bluetooth" href="test.iotframework#//@components.0/@connections.0"/>
+      <semanticElements xmi:type="IoTFramework:Bluetooth" href="test.iotframework#//@components.0/@connections.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_znnPcdq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="233,185,110">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='ConnectionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='ConnectionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_znnPc9q0Eeu6je7QbmkqoA" name="DedicateBT" incomingEdges="_znqSx9q0Eeu6je7QbmkqoA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="IoTFramework:Connection" href="test.iotframework#//@components.1/@connections.0"/>
+      <semanticElements xmi:type="IoTFramework:Connection" href="test.iotframework#//@components.1/@connections.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_znnPdNq0Eeu6je7QbmkqoA" labelSize="12" labelPosition="node" color="233,185,110">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='ConnectionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@nodeMappings[name='ConnectionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znpEpNq0Eeu6je7QbmkqoA" sourceNode="_znmBU9q0Eeu6je7QbmkqoA" targetNode="_znlaQNq0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znpEpdq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='RelationEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znpEptq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='RelationEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znprstq0Eeu6je7QbmkqoA" sourceNode="_znmBU9q0Eeu6je7QbmkqoA" targetNode="_znmBUNq0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znprs9q0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='RelationEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znprtNq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='RelationEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znprt9q0Eeu6je7QbmkqoA" sourceNode="_znmBU9q0Eeu6je7QbmkqoA" targetNode="_Hm92otqxEeuFZLhfO6qLPQ">
+      <target xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znpruNq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ProcessorEDGE']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znprudq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ProcessorEDGE']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znqSwtq0Eeu6je7QbmkqoA" sourceNode="_znmBU9q0Eeu6je7QbmkqoA" targetNode="_znmoY9q0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProcessor" href="test.iotframework#//@components.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znqSw9q0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ProcessorEDGE']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znqSxNq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ProcessorEDGE']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znqSx9q0Eeu6je7QbmkqoA" sourceNode="_znmoY9q0Eeu6je7QbmkqoA" targetNode="_znnPc9q0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znq50Nq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ConnectionEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znq50dq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ConnectionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znq51Nq0Eeu6je7QbmkqoA" sourceNode="_Hm92otqxEeuFZLhfO6qLPQ" targetNode="_znnPcNq0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znq51dq0Eeu6je7QbmkqoA" size="2">
+        <customFeatures>sourceArrow</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ConnectionEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znq51tq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Provider2ConnectionEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znrg4Nq0Eeu6je7QbmkqoA" sourceNode="_znmoY9q0Eeu6je7QbmkqoA" targetNode="_znn2gtq0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:DataProvider" href="test.iotframework#//@components.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znrg4dq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Component2DataEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znrg4tq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Component2DataEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znsH-Nq0Eeu6je7QbmkqoA" sourceNode="_znn2gtq0Eeu6je7QbmkqoA" targetNode="_znodlNq0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znsH-dq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znsH-tq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_znsH_dq0Eeu6je7QbmkqoA" sourceNode="_znn2gtq0Eeu6je7QbmkqoA" targetNode="_znodl9q0Eeu6je7QbmkqoA">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_znsvANq0Eeu6je7QbmkqoA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_znsvAdq0Eeu6je7QbmkqoA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WcA9zN8vEeuKU6jkkoVHMw" sourceNode="_Wb4a5t8vEeuKU6jkkoVHMw" targetNode="_Wb9TZN8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WcA9zd8vEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WcA9zt8vEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WcBk0t8vEeuKU6jkkoVHMw" sourceNode="_Wb4a5t8vEeuKU6jkkoVHMw" targetNode="_Wb96ct8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WcBk098vEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WcBk1N8vEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WcBk198vEeuKU6jkkoVHMw" sourceNode="_Wb8FQt8vEeuKU6jkkoVHMw" targetNode="_Wb-hgt8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WcBk2N8vEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WcBk2d8vEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WcCL4t8vEeuKU6jkkoVHMw" sourceNode="_Wb8FQt8vEeuKU6jkkoVHMw" targetNode="_Wb-hhd8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WcCL498vEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WcCL5N8vEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2TypeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s3gojN8xEeuKU6jkkoVHMw" sourceNode="_HnA58NqxEeuFZLhfO6qLPQ" targetNode="_Wb4a5t8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.0/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s3hPkN8xEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2DataEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s3hPkd8xEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2DataEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s3hPlN8xEeuKU6jkkoVHMw" sourceNode="_znn2gtq0Eeu6je7QbmkqoA" targetNode="_Wb8FQt8vEeuKU6jkkoVHMw">
+      <target xmi:type="IoTFramework:Data" href="test.iotframework#//@components.1/@data.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_s3hPld8xEeuKU6jkkoVHMw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2DataEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_s3hPlt8xEeuKU6jkkoVHMw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer/@edgeMappings[name='Data2DataEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_BZhnINpoEeuhJ9oKIQL9jA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/n7.intern.sirius.design/description/iotframework.odesign#//@ownedViewpoints[name='IoTFrameworkViewpoint']/@ownedRepresentations[name='IoTFrameworkDiagram']/@defaultLayer"/>
+    <target xmi:type="IoTFramework:IoTFramework" href="test.iotframework#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
