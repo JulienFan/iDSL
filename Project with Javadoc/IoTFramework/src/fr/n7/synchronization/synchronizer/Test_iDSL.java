@@ -914,8 +914,10 @@ class Synchronizer{
         int duration_ecg = ecgSensor.getSignalDuration();
         int duration_eeg = eegSensor.getSignalDuration();
 
+        //find the first synchronized sample's location in continuous data set, call it "head"  
         long head = findHead(local_clock_eeg,monitor_clock_eeg,samplingRate_eeg,local_clock_ecg,monitor_clock_ecg);
 
+        //excute output 
         console.formattedOutput("EEG head", head, "value", eegSensor.getOneSignalValue(head));
         console.formattedOutput("ECG clock", local_clock_ecg, "value", ecgSensor.getOneSignalValue(local_clock_ecg));
 
@@ -950,31 +952,48 @@ class Synchronizer{
                 "local_clock_discontinuous",  local_clock_discontinuous,
                 "monitor_clock_discontinuous", monitor_clock_discontinuous);
 
+        //"head" is the local timestamp of the continuous signal that actually corresponds to the clock_discontinuous  
         long head = 0;
 
+        //translate sampling rate(Hz) into milliseconds(ms)  
         int samplingInterval = 1000/samplingRate_continuous + 1;
 
+        //When we try to find the clock that actually corresponds to the clock_discontinuous by using the two offsets,  
+        //the result (call it actual_continuous) may not correspond to any sample in ecg data due to the sampling rate, so we need to  
+        //find the closest timestamp in ecg data, this forward time difference indicates that we found a closest timestamp that is  
+        //located on the right side of the "actual_continuous", so we have: head = actual_continuous + timeDifferenceForward.
         int timeDifferenceForward = 0;
 
+        //same meaning as the one above but this timestamp is located on the left side of the "actual_continuous", so we have:  
+        // head = actual_continuous - timeDifferenceBackward.
         int timeDifferenceBackward = 0;
 
+        //offset_continuous is the time offset between the continuous device's local absolute time and the monitor's local absolute time  
         long offset_continuous = monitor_clock_continuous - local_clock_continuous;
 
+        //When we try to find the clock that actually corresponds to the clock_discontinuous by using the two offsets,  
+        //this result (call it actual_ecg) may not correspond to any sample in continuous data set due to the sampling rate  
         long actual_continuous = monitor_clock_discontinuous - offset_continuous;
 
+        //try to find the closest timestamp forward in the continuous data set  
         while((actual_continuous + timeDifferenceForward - local_clock_continuous) % samplingInterval != 0){
             timeDifferenceForward++;
         }
 
+        //if timeDifferenceForward == 0, that means the "actual_continuous" we calculated before corresponds perfectly to one timestamp in continuous data  
+        //we can use it as the head for this time  
         if(timeDifferenceForward == 0){
             head = actual_continuous;
             return head;
         }
 
+        //try to find the closest timestamp backwards in the continuous data set  
         while((actual_continuous - timeDifferenceBackward - local_clock_continuous) % samplingInterval != 0){
             timeDifferenceBackward++;
         }
 
+         //compare two time differences, choose the smaller one and calculate the head.  
+        //head = (timeDifferenceForward - timeDifferenceBackward >0) ? (actual_continuous-timeDifferenceBackward) : (actual_continuous + timeDifferenceForward); 
         if(timeDifferenceForward - timeDifferenceBackward >0){
             head = actual_continuous-timeDifferenceBackward;
             console.formattedOutput("time difference", 0-timeDifferenceBackward);
